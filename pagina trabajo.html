@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Programación Orientada a Objetos</title>
+    <link rel="stylesheet" href="estilo trabajo.css"> <!-- Hoja de estilo -->
+</head>
+<body>
+    <header>
+        <h1>Taller de Programación Orientada a Objetos</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Teoría</h2>
+            <h3>¿Qué es la Programación Orientada a Objetos (POO)?</h3>
+            <p>La Programación Orientada a Objetos (POO) es un paradigma de programación basado en el concepto de "objetos", que pueden contener datos en forma de atributos y código en forma de métodos. Los objetos interactúan entre sí para realizar tareas y resolver problemas.</p>
+
+            <h3>Instrucciones básicas para trabajar con JSON en JavaScript</h3>
+            <p>JSON (JavaScript Object Notation) es un formato ligero para el intercambio de datos. En JavaScript, se utiliza <code>JSON.stringify()</code> para convertir un objeto a una cadena JSON y <code>JSON.parse()</code> para convertir una cadena JSON a un objeto.</p>
+            <div class="code-block">
+                // Convertir un objeto a JSON<br>
+                const obj = { nombre: 'Juan', edad: 30 };<br>
+                const jsonString = JSON.stringify(obj);<br>
+                <br>
+                // Convertir una cadena JSON a objeto<br>
+                const parsedObj = JSON.parse(jsonString);<br>
+            </div>
+
+            <h3>¿Cuáles son los pilares de la POO?</h3>
+            <ul>
+                <li><strong>Encapsulamiento:</strong> Oculta los detalles internos del objeto y solo expone una interfaz pública.</li>
+                <li><strong>Abstracción:</strong> Representa los conceptos esenciales sin incluir detalles innecesarios.</li>
+                <li><strong>Herencia:</strong> Permite crear nuevas clases basadas en clases existentes.</li>
+                <li><strong>Polimorfismo:</strong> Permite que un objeto se comporte de diferentes maneras según su tipo.</li>
+            </ul>
+
+            <h3>¿Qué es el polimorfismo? Tipos de polimorfismo</h3>
+            <p>El polimorfismo es una característica que permite que una función o método tenga múltiples formas. Existen dos tipos principales:</p>
+            <ul>
+                <li><strong>Polimorfismo en tiempo de compilación:</strong> Logrado mediante la sobrecarga de métodos.</li>
+                <li><strong>Polimorfismo en tiempo de ejecución:</strong> Logrado mediante herencia e interfaces.</li>
+            </ul>
+
+            <h3>Relaciones entre clases</h3>
+            <p>Las relaciones entre clases se representan en diagramas UML mediante conectores:</p>
+            <ul>
+                <li><strong>Asociación:</strong> Relación entre dos clases.</li>
+                <li><strong>Agregación:</strong> Relación de "todo-parte".</li>
+                <li><strong>Composición:</strong> Ciclo de vida de la parte controlado por el todo.</li>
+                <li><strong>Herencia:</strong> Relación de "es un".</li>
+                <li><strong>Relación simple:</strong> Relación general sin jerarquía.</li>
+            </ul>
+
+            <h3>Definiciones</h3>
+            <dl>
+                <dt>Clase:</dt>
+                <dd>Plantilla para crear objetos que define atributos y métodos.</dd>
+                <dt>Instancia:</dt>
+                <dd>Un objeto creado a partir de una clase.</dd>
+                <dt>Atributos:</dt>
+                <dd>Variables que definen el estado de un objeto.</dd>
+                <dt>Métodos:</dt>
+                <dd>Funciones que definen el comportamiento de un objeto.</dd>
+                <dt>Herencia:</dt>
+                <dd>Mecanismo por el cual una clase hereda atributos y métodos de otra.</dd>
+                <dt>Visibilidad:</dt>
+                <dd>Especifica el acceso permitido a los miembros de una clase.</dd>
+                <dt>Abstracción:</dt>
+                <dd>Proceso de simplificar una entidad al ocultar detalles complejos.</dd>
+                <dt>Objeto:</dt>
+                <dd>Instancia de una clase que encapsula datos y métodos.</dd>
+                <dt>Encapsulamiento:</dt>
+                <dd>Principio de ocultar los detalles internos de un objeto.</dd>
+                <dt>JSON:</dt>
+                <dd>Formato ligero de intercambio de datos fácil de leer y escribir.</dd>
+            </dl>
+            
+        </section>
+
+        <section>
+            
+            <h2>UML</h2>
+            <button onclick="window.open('diagramas UML.pdf', '_blank')">diagramas UML</button>
+        </section>
+    </main>
+
+    <h2>Práctica</h2>
+    <button onclick="window.open('practica.html', '_blank')">Ver practicas</button>
+</body>
+</html>
+
+    
